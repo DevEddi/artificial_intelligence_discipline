@@ -25,3 +25,13 @@ while t < 5:
     if t==3:
         continue
     print(t)
+
+print("--------------------")
+print(" ELSE ")
+print("--------------------")
+t =1
+while t < 5:
+    t = t + 1
+    print(t)
+else:
+    print("Saindo do loop")
