@@ -15,3 +15,5 @@ do aluno e sua média final;
 ◦
 Calcule a média da turma (baseado na média final)
 """
+
+print("Digite quantidade de avaliações que aluna teve: ")
