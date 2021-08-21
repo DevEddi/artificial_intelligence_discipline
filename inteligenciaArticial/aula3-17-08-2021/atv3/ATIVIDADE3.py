@@ -17,3 +17,18 @@ Calcule a média da turma (baseado na média final)
 """
 
 print("Digite quantidade de avaliações que aluna teve: ")
+qntAvalicao = int(input())
+
+print("Digite quantidade de alunos da turma: ")
+qntAluno = int(input())
+
+for x in  range(qntAluno):
+    print("Digite o nome do aluno: ")
+    nomeAluno = input()
+    print("Digite os valores das notas: ")
+    avalNota = []
+    for z in range(qntAvalicao):
+        avalNota.append(float(input("Avaliação: ")))
+print("Nome: " + str(nomeAluno) +  " nota: " + str(avalNota))
+
+
