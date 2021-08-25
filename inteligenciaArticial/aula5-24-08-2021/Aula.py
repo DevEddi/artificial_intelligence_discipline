@@ -43,5 +43,9 @@ print(fib(10))
 print(fib)
 
 #----------------
-#
+#lambda
 #----------------
+
+s = lambda a,b: a + b
+print(s(5,10))
+print(s(5, s(4,9)))
