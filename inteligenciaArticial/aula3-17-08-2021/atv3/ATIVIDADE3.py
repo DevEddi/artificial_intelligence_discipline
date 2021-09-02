@@ -32,11 +32,15 @@ for x in  range(qntAluno):
         avalNota.append(float(input("Avaliação: ")))
 print("Nome: " + str(nomeAluno) +  " nota: " + str(avalNota))
 """
+dicionario = {}
 for x in  range(qntAluno):
     print("Digite o nome do aluno: ")
     nomeAluno = input()
     print("Digite os valores das notas: ")
-    dicionario = {}
+
     for z in range(qntAvalicao):
         dicionario[nomeAluno] = float(input())
-print("Nome: " + str(nomeAluno) +  " nota: " + str(dicionario[nomeAluno]))
+for k,v in dicionario.items():
+    print("Nome: " + str(k))
+    for v in dicionario.items():
+        print("nota: " + str(v))
