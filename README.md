@@ -1,4 +1,4 @@
-# 🤖 artificial intelligence discipline 
+# 🤖 Artificial Intelligence Discipline 
 
 
 🎓 College: [Faculdade Metodista Granbery](http://granbery.edu.br/)
